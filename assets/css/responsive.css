@@ -1,0 +1,83 @@
+/*
+Author: Bootstrapthemes
+Author URI: http://www.bootstrapthemes.co
+*/
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+  img.slide-img {
+    position: fixed;
+    top: 0;
+    min-height: 578px;
+    width: auto;
+  }
+  h1 {
+    font-size: 4.5rem;
+    line-height: 63px;
+    font-weight: 400;
+    letter-spacing: -1px;
+  }
+  .offset-md-3 {
+    margin-left: 4%;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 942px) {
+  #presentation button.btn.btn-primary {
+    margin-top: 13px;
+  }
+  .img-form {
+    width: 100%;
+  }
+  img.bande {
+    width: 100%;
+  }
+  #formation li.col-lg-3.col-sm-6.col-xs-12 {
+    margin-bottom: 48px;
+  }
+}
+@media (max-width: 768px) {
+  .img-class {
+    padding: 20px;
+  }
+  .img-de i.fas {
+    margin-bottom: 33px;
+  }
+  .img-de {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 650px) {
+  .img-bot {
+    display: none;
+  }
+  .img-bot2 {
+    display: inline-block;
+  }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 500px) {
+  h2.titl {
+    font-size: 14px;
+    line-height: 2rem;
+    min-height: 55px;
+    font-weight: bold;
+    color: #263238;
+  }
+  .img-back {
+    margin-top: 106px;
+  }
+  .img-class {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 320px) {
+}
